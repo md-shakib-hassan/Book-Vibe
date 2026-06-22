@@ -5,6 +5,7 @@ import Home from "../pages/Home";
 import ListBook from "../pages/ListBook";
 import PagestoRead from "../pages/PagestoRead";
 import HomeContent from "../pages/HomeContent";
+import BookDetails from "../pages/BookDetails/BookDetails";
 
  export const router = createBrowserRouter([
   {
@@ -23,6 +24,9 @@ import HomeContent from "../pages/HomeContent";
         path:"/pages",
         Component:PagestoRead,
 
+      },{
+        path: '/booKDetails/:id',
+        Component:BookDetails,
       }
     ]
       
