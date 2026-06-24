@@ -24,10 +24,13 @@ import BookDetails from "../pages/BookDetails/BookDetails";
         path:"/pages",
         Component:PagestoRead,
 
-      },{
+      },
+      {
         path: '/booKDetails/:id',
         Component:BookDetails,
-      }
+        loader: fetch('/public/booksData.json'),
+       
+      },
     ]
       
     
