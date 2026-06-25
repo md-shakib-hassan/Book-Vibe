@@ -28,7 +28,7 @@ import BookDetails from "../pages/BookDetails/BookDetails";
       {
         path: '/booKDetails/:id',
         Component:BookDetails,
-        loader: fetch('/public/booksData.json'),
+       
        
       },
     ]
